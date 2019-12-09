@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset = 'utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	body {
+		font-family: fantasy, cursive, serif;
+		margin: 1;
+		background-color:#CD5C5C;
+		}
+	        /* Style the header */
+	        .header {
+			padding: 95px;
+			text-align: center;
+			color: purple;
+												        }
+	</style>
+	</head>
+	<h1><center>You are the defense team</center></h1>
+{% block content %}
+<form  method='GET'>
+
+<style>
+table,table tr th, table tr td { border:2px solid white; }
+table { width: 900px; min-height: 50px; line-height: 50px; text-align: center; border-collapse: collapse;}
+table th {
+	background-color: #F5DEB3;
+	}
+table td {
+	background-color:#F5F5DC;
+	}
+</style>
+
+<table align='center' style='width:50%'>
+	<tr>
+		<th>Number of Defenders in the Box</th>
+	</tr>
+	<tr>
+	<td>6</td>
+	</tr>
+	</center></table>
+</form>
+<a href='/NFL/' class=''><center><button type='button' class='button'>Play Again!!!</button></center></a>
+{% endblock %}
+</html>
